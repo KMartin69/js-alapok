@@ -27,18 +27,41 @@
 
 // console.log(eletkorDavid >= eletkorTalaber)
 
-const keresztnev = "Balázs";
-const foglalkozásSzeretne = "Kezdő programozó";
+// const keresztnev = "Balázs";
+// const foglalkozásSzeretne = "Kezdő programozó";
 
-const foglalkozasjelenleg = "Kezdő kábeldugdosó";
-const SzuletesiEv = 2009;
-const ev = 2026;
+// const foglalkozasjelenleg = "Kezdő kábeldugdosó";
+// const SzuletesiEv = 2009;
+// const ev = 2026;
 
-const balazs =
-  keresztnev +
-  " Vagyok, " +
-  (ev - SzuletesiEv) +
-  " éves " +
-  foglalkozásSzeretne +
-  " szeretnek lenni!";
-console.log(balazs)
+// const balazs =
+//   keresztnev +
+//   " Vagyok, " +
+//   (ev - SzuletesiEv) +
+//   " éves " +
+//   foglalkozásSzeretne +
+//   " szeretnek lenni!";
+// console.log(balazs)
+
+// const bekertev = "1991";
+// console.log(bekertev + 18);
+
+// const SzuletesiEv = Number(bekertev);
+// console.log(SzuletesiEv + 18);
+
+// console.log(Number("Talabér"));
+// console.log(typeof SzuletesiEv);
+
+// console.log("Én " + 23 + " éves vagyok");
+
+// console.log("23" - "10" - 3);
+// console.log("Talabér"-"Olivér")
+
+// console.log("23" * "2");
+// console.log("24" / "2");
+
+console.log(Boolean(1));
+console.log(Boolean(undefined));
+console.log(Boolean({}));
+console.log(Boolean(""));
+console.log(Boolean(Number("Talabér")));
