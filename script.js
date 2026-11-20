@@ -115,3 +115,10 @@ if (shouldDrive) {
 } else{
     console.log("Someone else should drive...");
 }
+
+const day = "Hétfő";
+
+switch (day) {
+    case "Hétfő":
+        console.log("Ma van a hét első napja!");
+    }
