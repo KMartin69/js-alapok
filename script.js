@@ -60,8 +60,58 @@
 // console.log("23" * "2");
 // console.log("24" / "2");
 
-console.log(Boolean(1));
-console.log(Boolean(undefined));
-console.log(Boolean({}));
-console.log(Boolean(""));
-console.log(Boolean(Number("Talabér")));
+// console.log(Boolean(1));
+// console.log(Boolean(undefined));
+// console.log(Boolean({}));
+// console.log(Boolean(""));
+// console.log(Boolean(Number("Talabér")));
+
+// const kor = 18;
+
+// if (kor === 18) console.log("Most lettél nagykorú!");
+// console.log(18===18)
+// console.log(18==18)
+// console.log(18==="18")
+// console.log(18=="18")
+
+// const kedvenc = Number(prompt("Mi a kedvenc számod?"));
+// console.log(kedvenc, typeof kedvenc);
+// if (kedvenc === 23) {
+//     console.log("A 23 egy nagyszerű szám!");
+// } else if (kedvenc === 7){
+//     console.log("A 7 is egy nagyszerű szám!");
+// } else if (kedvenc === 27){
+//     console.log("A 27 a legjobb szám!");
+// } else{
+//     console.log("Más számot választottál!");
+// }
+// if (kedvenc !== 27){
+//     console.log("Miért nem a 27-et választottad?");
+// }
+
+// const age = 16; 
+// const a = age >= 20;
+// const b = age < 20;
+
+// console.log(a);
+// console.log(b);
+
+// logikai operatorok
+
+// console.log(!a);
+// console.log(a && b);
+// console.log(a || b);
+// console.log(!a && b);
+// console.log(a && !b);
+
+const HasDriversLicense = true;
+const HasGoodVision = true;
+const IsTired = false;
+
+const shouldDrive = HasDriversLicense && HasGoodVision && !IsTired;
+
+if (shouldDrive) {
+    console.log("David is able to drive!");
+} else{
+    console.log("Someone else should drive...");
+}
