@@ -89,7 +89,7 @@
 //     console.log("Miért nem a 27-et választottad?");
 // }
 
-// const age = 16; 
+// const age = 16;
 // const a = age >= 20;
 // const b = age < 20;
 
@@ -104,21 +104,49 @@
 // console.log(!a && b);
 // console.log(a && !b);
 
-const HasDriversLicense = true;
-const HasGoodVision = true;
-const IsTired = false;
+// const HasDriversLicense = true;
+// const HasGoodVision = true;
+// const IsTired = false;
 
-const shouldDrive = HasDriversLicense && HasGoodVision && !IsTired;
+// const shouldDrive = HasDriversLicense && HasGoodVision && !IsTired;
 
-if (shouldDrive) {
-    console.log("David is able to drive!");
-} else{
-    console.log("Someone else should drive...");
-}
+// if (shouldDrive) {
+//     console.log("David is able to drive!");
+// } else{
+//     console.log("Someone else should drive...");
+// }
 
-const day = "Hétfő";
+// const day = "Hétfő";
 
-switch (day) {
-    case "Hétfő":
-        console.log("Ma van a hét első napja!");
-    }
+// switch (day) {
+//   case "Hétfő":
+//     console.log("Ma van a hét első napja! Dupla TJ");
+//     break;
+//   case "Kedd":
+//     console.log("Ma van a hét második napja! Dupla adatbázis");
+//     break;
+//   case "Szerda":
+//     console.log("Ma van a hét harmadik napja! Fizika első");
+//     break;
+//   case "Csütörtök":
+//     console.log("Ma van a hét negyedik napja! Dupla magyar");
+//     break;
+//   case "Péntek":
+//     console.log("Kis szombat");
+//     break;
+//   case "Szombat":
+//   case "Vasárnap":
+//     console.log("Hétvége");
+//     break;
+//   default:
+//     console.log("Nem érvényes nap!");
+// }
+
+const age = 23;
+age >= 18
+  ? console.log("David can start drinking and driving 🚗")
+  : console.log("David is too young. Wait a few years ⏳");
+
+  const drink = age >= 18 ? "wine 🍷" : "water 💧";
+
+  console.log(drink);
